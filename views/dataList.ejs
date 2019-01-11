@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/buttonStyle.css">
+    <meta charset="utf-8">
+    <title>Ads</title>
+</head>
+
+<body>
+    <div class="bg_img"></div>
+    <div class="form_wrapper" style="width: 800px;" !important>
+        <div class="form_container" style="text-align:center;">
+            <h1 style=" color: white; background-color:#BB1820; margin-bottom: 15px ; padding-bottom: 15px; padding-top: 15px; font-family: Verdana, Geneva, sans-serif;">
+                D-velop Success from Feedback</h1>
+            <div>
+                <h2>
+                    as Dale Carnegie once said:
+                    "Discouragement and failure are two of the surest stepping stones to success."
+
+                </h2>
+                <div class="letter">
+                        please click on feedback button to post a feedback
+                </h3>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <div class="title_container letter">
+
+                <!--Add Container-->
+                <div>
+
+                    <% for(var i = 0 ; i < arr.length ; i++) { %>
+                    <div class="title_container">
+                        <p>
+                            <%= arr[i].first_name %>
+                            <%= arr[i].last_name %> said:
+                            <%= arr[i].message %>
+                        </p>
+                        <!-- <p>
+                            <%= arr[i].email %>
+                            <%= arr[i].phone %>
+                        </p> -->
+                    </div>
+                    <% } %>
+
+                </div>
+            </div>
+        <!-- Add One -->
+        <a href="http://localhost:8080/postMessage" class="float">
+            <i class="fa fa-envelope my-float"></i>
+        </a>
+        <div class="label-container">
+            <div class="label-text">Feedback</div>
+            <i class="fa fa-play label-arrow"></i>
+        </div>
+        <a style="padding:10px;display:block;" href="http://androidcss.com/css/css3-floating-button-tutorial/" target="_blank"></a>
+    </div>
+</body>
+
+</html>

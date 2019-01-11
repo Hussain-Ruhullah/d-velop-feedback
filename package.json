@@ -1,0 +1,30 @@
+{
+  "name": "hussain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Hussain Ruhullah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-joi": "^0.3.1",
+    "express-validator": "^5.3.1",
+    "mathjs": "^5.4.0",
+    "mongoose": "^5.4.1",
+    "node-sass": "^4.11.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "web-push": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <meta charset="utf-8">
+    <title>d-velop Trainee</title>
+</head>
+
+<body>
+    <div class="bg_img"></div>
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <h2>D-velop Success from Feedback.</h2>
+                <h3>Trainee Feedback system</h3>
+            </div>
+            <form id="contact.form" method="POST" action="/postMessage">
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>First name</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="first_name" placeholder="Hussain" required />
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>Last name</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="last_name" placeholder="Ruhullah" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>Email</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                            <input type="email" name="email" placeholder="Hussain.Ruhollah@gmail.com" required />
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>Phone</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+                            <input type="tel" name="phone" placeholder="Phone no" pattern="[0-9]{10}" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div>
+                        <label>Message</label>
+                        <div class="textarea_field"> <span><i aria-hidden="true" class="fa fa-comment"></i></span>
+                            <textarea cols="46" rows="3" name="message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <input class="button" type="submit" value="Sumbit" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
